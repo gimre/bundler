@@ -1,0 +1,23 @@
+{
+  "name": "bundler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gimre/bundler.git"
+  },
+  "author": "Gabriel Imre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gimre/bundler/issues"
+  },
+  "homepage": "https://github.com/gimre/bundler#readme",
+  "dependencies": {
+    "electrolyte": "^0.2.2"
+  }
+}
