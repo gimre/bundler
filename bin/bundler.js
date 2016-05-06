@@ -8,3 +8,4 @@ const bundler = ioc.create( 'lib/bundler' )
 bundler.bootstrap( )
 // bundler.run( )
 
+require( '../test' )
