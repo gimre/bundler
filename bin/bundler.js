@@ -6,7 +6,7 @@ ioc.use( ioc.dir( './' ) )
 
 const bundler = ioc.create( 'lib/bundler' )
 bundler.bootstrap( )
-// bundler.run( )
+bundler.run( )
 
 require( '../test' )
 
